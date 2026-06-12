@@ -1097,12 +1097,31 @@ html {
     margin-top: 1.5rem;
 }
 
+.footer-copy a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.3s var(--ease-smooth);
+}
+
+.footer-copy a:hover {
+    color: var(--color-gold);
+}
+
 /* -------------------------------------------------------
    FAQ
    ------------------------------------------------------- */
 .faq {
     padding: var(--section-padding);
     background-color: var(--color-cream);
+}
+
+.faq .section-title {
+    color: var(--color-black);
+}
+
+.faq .section-subtitle {
+    color: var(--color-olive);
 }
 
 .faq-list {
