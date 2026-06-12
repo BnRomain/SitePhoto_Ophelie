@@ -1108,6 +1108,23 @@ html {
     color: var(--color-gold);
 }
 
+.footer-credit {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    opacity: 0.5;
+    margin-top: 0.6rem;
+}
+
+.footer-credit a {
+    color: var(--color-gold);
+    opacity: 0.9;
+    transition: opacity 0.3s var(--ease-smooth);
+}
+
+.footer-credit a:hover {
+    opacity: 1;
+}
+
 /* -------------------------------------------------------
    FAQ
    ------------------------------------------------------- */
@@ -1195,6 +1212,14 @@ html {
 .legal {
     padding: 160px 0 var(--section-padding);
     background-color: var(--color-white);
+}
+
+.legal .section-title {
+    color: var(--color-black);
+}
+
+.legal .section-subtitle {
+    color: var(--color-olive);
 }
 
 .legal-content {
