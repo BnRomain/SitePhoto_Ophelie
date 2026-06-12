@@ -27,4 +27,10 @@
             <image:caption>Matin Vintage - portrait rétro</image:caption>
         </image:image>
     </url>
+    <url>
+        <loc>https://bnromain.github.io/SitePhoto_Ophelie/mentions-legales.html</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
 </urlset>
