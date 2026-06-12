@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://bnromain.github.io/SitePhoto_Ophelie/</loc>
+        <lastmod>2026-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/DSC03013.JPG</image:loc>
+            <image:caption>Portrait photographique par Ophélie Malorey</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/mains%20de%20quentin.jpg</image:loc>
+            <image:caption>Image vedette par Ophélie Malorey</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/julien%208%20(1).jpg</image:loc>
+            <image:caption>Séance automnale - portrait en lumière d'automne</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/Julia%20blanc.jpg</image:loc>
+            <image:caption>En pleine campagne - portrait souriant</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/KODAK%20Digital%20Still%20Camera%20(2).JPG</image:loc>
+            <image:caption>Matin Vintage - portrait rétro</image:caption>
+        </image:image>
+    </url>
+</urlset>

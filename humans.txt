@@ -1,0 +1,13 @@
+/* SITE */
+Nom: Ophélie Malorey - Photographe
+URL: https://bnromain.github.io/SitePhoto_Ophelie/
+Standards: HTML5, CSS3, JavaScript, JSON-LD, llms.txt
+Composants: HTML/CSS/JS vanilla, sans dépendance externe
+
+/* PHOTOGRAPHE */
+Ophélie Malorey - Toulouse, Occitanie, France
+Instagram: @ophe_les_photos
+
+/* DÉVELOPPEMENT */
+Conception & développement: Romain Ben - https://github.com/BnRomain
+Agence: OptimizIA.xyz

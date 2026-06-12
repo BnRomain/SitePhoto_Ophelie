@@ -8,20 +8,36 @@
     <meta name="keywords" content="photographe, Toulouse, portrait, mariage, shooting photo, photographe Toulouse, séance photo">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Ophélie Malorey - Photographe">
+    <meta property="og:title" content="Ophélie Malorey - Photographe à Toulouse">
     <meta property="og:description" content="Portraits, quotidien, paysages, voyage. Capturer le sens et la vie. Photographe basée à Toulouse.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://opheliemalorey.fr">
-    <meta property="og:image" content="https://placehold.co/1200x630/4A4A1A/ffffff?text=Ophelie+Malorey+Photographe">
+    <meta property="og:url" content="https://bnromain.github.io/SitePhoto_Ophelie/">
+    <meta property="og:site_name" content="Ophélie Malorey Photographe">
+    <meta property="og:image" content="https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/mains%20de%20quentin.jpg">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:alt" content="Photographie signée Ophélie Malorey">
     <meta property="og:locale" content="fr_FR">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ophélie Malorey - Photographe">
+    <meta name="twitter:title" content="Ophélie Malorey - Photographe à Toulouse">
     <meta name="twitter:description" content="Portraits, quotidien, paysages, voyage. Capturer le sens et la vie.">
+    <meta name="twitter:image" content="https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/mains%20de%20quentin.jpg">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://bnromain.github.io/SitePhoto_Ophelie/">
+
+    <!-- Robots & Géolocalisation -->
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="geo.region" content="FR-31">
+    <meta name="geo.placename" content="Toulouse">
+
+    <!-- Favicon & PWA -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3D3B14">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,17 +53,115 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Ophélie Malorey Photographe",
-        "description": "Photographe basée à Toulouse, spécialisée en portraits, scènes de vie, paysages et voyages.",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Toulouse",
-            "addressCountry": "FR"
-        },
-        "telephone": "+33672077698",
-        "email": "o.lilimalorey@gmail.com",
-        "url": "https://opheliemalorey.fr"
+        "@graph": [
+            {
+                "@type": ["LocalBusiness", "ProfessionalService"],
+                "@id": "https://bnromain.github.io/SitePhoto_Ophelie/#business",
+                "name": "Ophélie Malorey Photographe",
+                "alternateName": "Ophélie Malorey - Photographe à Toulouse",
+                "description": "Photographe basée à Toulouse, spécialisée en portraits, scènes de vie, paysages et voyages. Une approche sensible qui cherche à saisir l'humain, l'essentiel, le vivant.",
+                "url": "https://bnromain.github.io/SitePhoto_Ophelie/",
+                "image": "https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/DSC03013.JPG",
+                "logo": "https://bnromain.github.io/SitePhoto_Ophelie/favicon.svg",
+                "telephone": "+33672077698",
+                "email": "o.lilimalorey@gmail.com",
+                "priceRange": "€€",
+                "currenciesAccepted": "EUR",
+                "founder": { "@id": "https://bnromain.github.io/SitePhoto_Ophelie/#person" },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Toulouse",
+                    "addressRegion": "Occitanie",
+                    "postalCode": "31000",
+                    "addressCountry": "FR"
+                },
+                "areaServed": [
+                    { "@type": "City", "name": "Toulouse" },
+                    { "@type": "AdministrativeArea", "name": "Lot" },
+                    { "@type": "AdministrativeArea", "name": "Occitanie" }
+                ],
+                "knowsAbout": [
+                    "Photographie de portrait",
+                    "Photographie de mariage",
+                    "Scène de vie",
+                    "Photographie de paysage",
+                    "Photographie de voyage",
+                    "Photographie argentique"
+                ],
+                "makesOffer": [
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Séance portrait" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reportage scène de vie" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Photographie de mariage" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Photographie de voyage et de paysage" } }
+                ],
+                "sameAs": [
+                    "https://www.instagram.com/ophe_les_photos/",
+                    "https://www.facebook.com/profile.php?id=100010316619485",
+                    "https://www.linkedin.com/in/ophelie-malorey-736a3b223/"
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://bnromain.github.io/SitePhoto_Ophelie/#person",
+                "name": "Ophélie Malorey",
+                "jobTitle": "Photographe",
+                "description": "Photographe à Toulouse, attachée à capturer l'humain, l'essentiel et le vivant à travers portraits et scènes de vie.",
+                "url": "https://bnromain.github.io/SitePhoto_Ophelie/",
+                "image": "https://bnromain.github.io/SitePhoto_Ophelie/Photos_site/oph%C3%A9lie%20foix%20caf%C3%A9.JPG",
+                "knowsLanguage": "fr",
+                "worksFor": { "@id": "https://bnromain.github.io/SitePhoto_Ophelie/#business" },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Toulouse",
+                    "addressRegion": "Occitanie",
+                    "addressCountry": "FR"
+                },
+                "sameAs": [
+                    "https://www.instagram.com/ophe_les_photos/",
+                    "https://www.facebook.com/profile.php?id=100010316619485",
+                    "https://www.linkedin.com/in/ophelie-malorey-736a3b223/"
+                ]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://bnromain.github.io/SitePhoto_Ophelie/#website",
+                "url": "https://bnromain.github.io/SitePhoto_Ophelie/",
+                "name": "Ophélie Malorey - Photographe",
+                "description": "Portfolio d'Ophélie Malorey, photographe à Toulouse : portraits, scènes de vie, paysages et voyage.",
+                "inLanguage": "fr",
+                "publisher": { "@id": "https://bnromain.github.io/SitePhoto_Ophelie/#person" }
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://bnromain.github.io/SitePhoto_Ophelie/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Où Ophélie Malorey réalise-t-elle ses séances photo ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ophélie Malorey est basée à Toulouse. Elle shoote dans le Lot et partout ailleurs, dès lors que le lieu est accessible en train."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Quels types de photographie propose Ophélie Malorey ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Elle réalise des portraits, des scènes de vie, des paysages et de la photographie de voyage, avec une approche sensible qui cherche à saisir l'humain et l'essentiel."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Comment réserver une séance photo avec Ophélie Malorey ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Vous pouvez la contacter par e-mail à o.lilimalorey@gmail.com ou par téléphone au 06 72 07 76 98. Elle est ouverte aux projets sensibles et originaux."
+                        }
+                    }
+                ]
+            }
+        ]
     }
     </script>
 </head>
@@ -343,7 +457,7 @@
                             loading="lazy"
                         >
                         <blockquote class="testimonial-quote">
-                            Ophélie a pris nos photos de pre-mariage et l'expérience était très amusante. C'était presque mieux que notre mariage !
+                            Ophélie est d'une grande et belle sensibilité. Son regard de photographe plein de joie, douceur et poésie m'a dessuite mise à l'aise pour notre shooting. Elle a su capter des aspects de moi et les mettre en lumière avec délicatesse et pudeur, dans un environnement qui me ressemblait... C'était une première pour moi, et une expérience enrichissante. Je dirais même thérapeutique! Merci beaucoup !
                         </blockquote>
                         <p class="testimonial-name">Julia</p>
                         <p class="testimonial-role">Cliente mariage</p>
@@ -358,7 +472,7 @@
                             loading="lazy"
                         >
                         <blockquote class="testimonial-quote">
-                            Ophélie et moi avons collaboré une fois pour un projet personnel et c'était ma meilleure expérience en tant que mannequin.
+                            Ophélie et moi avons collaboré une fois pour un projet personnel et c'était ma meilleure expérience.
                         </blockquote>
                         <p class="testimonial-name">Julien</p>
                         <p class="testimonial-role">Mannequin</p>

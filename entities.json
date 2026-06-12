@@ -1,0 +1,22 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Entités sémantiques - Ophélie Malorey Photographe",
+    "description": "Entités clés du portfolio pour l'indexation par les moteurs de recherche et les assistants IA.",
+    "url": "https://bnromain.github.io/SitePhoto_Ophelie/",
+    "about": [
+        "Ophélie Malorey",
+        "Photographe",
+        "Toulouse",
+        "Occitanie",
+        "Lot",
+        "Portrait",
+        "Scène de vie",
+        "Paysage",
+        "Photographie de voyage",
+        "Photographie de mariage",
+        "Photographie argentique",
+        "Séance photo",
+        "Portfolio photographe"
+    ]
+}

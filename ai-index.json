@@ -1,0 +1,27 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Ophélie Malorey - Photographe",
+    "url": "https://bnromain.github.io/SitePhoto_Ophelie/",
+    "inLanguage": "fr",
+    "isMachineReadable": true,
+    "about": {
+        "@type": "Person",
+        "name": "Ophélie Malorey",
+        "jobTitle": "Photographe",
+        "areaServed": "Toulouse, Occitanie, France"
+    },
+    "keywords": [
+        "photographe Toulouse",
+        "portrait",
+        "scène de vie",
+        "paysage",
+        "photographie de voyage",
+        "photographie de mariage"
+    ],
+    "machineReadableEndpoints": {
+        "llms": "/SitePhoto_Ophelie/llms.txt",
+        "entities": "/SitePhoto_Ophelie/entities.json",
+        "sitemap": "/SitePhoto_Ophelie/sitemap.xml"
+    }
+}

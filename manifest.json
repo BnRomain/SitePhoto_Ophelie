@@ -1,0 +1,21 @@
+{
+    "name": "Ophélie Malorey - Photographe",
+    "short_name": "O. Malorey",
+    "description": "Portfolio d'Ophélie Malorey, photographe à Toulouse : portraits, scènes de vie, paysages et voyage.",
+    "lang": "fr",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#F0EDE5",
+    "theme_color": "#3D3B14",
+    "categories": ["photography", "portfolio", "art"],
+    "icons": [
+        {
+            "src": "favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}

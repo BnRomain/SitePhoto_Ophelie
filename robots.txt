@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Optimisation IA (visibilité dans les moteurs de réponse)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://bnromain.github.io/SitePhoto_Ophelie/sitemap.xml
